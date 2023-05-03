@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <!-- Área do texto-->
+        <img class="logotipo" src="img\logo-alura.svg" alt="logotipo da Alura">
+        <section class="texto">
+            <textarea class="text-area" placeholder="Digite seu texto: "></textarea>
+            <p class="aviso"><img src="img/icone-exclamacao.svg" width="12px"> Apenas letras minúsculas e sem acento.</p>
+
+            <div class="container-botao">
+                <button class="botao-azul" onclick="botaoCodificar()">Criptografar</button>
+                <button class="botao" onclick="botaoDecodificar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <!-- Tradutor -->
+        <section class="tradutor">
+            <textarea class="traducao" readonly></textarea>
+
+            <div class="imagem">
+                <img src="img/imagem-desktop.png" class="imagem-desktop" alt="Ilustração de pessoa buscando com uma lupa">
+                <h2 class="titulo-tradutor">Nenhuma mensagem encontrada</h2>
+                <p class="texto-tradutor">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <div class="botao-copiar">
+                <button class="botao">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        Desenvolvido com ♥ por <a href="https://github.com/brusoncini">Bruna</a>.
+    </footer>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

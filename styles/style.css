@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* DESKTOP */
+:root {
+    --azul-claro: #D8DFE8;
+    --azul-escuro: #0A3871;
+    --branco: #FFFFFF;
+    --cinza: #495057;
+    --cinza-claro: #9DB5D2;
+    --fonte-texto: 'Inter';
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--azul-claro);
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logotipo {
+    align-self: flex-start;
+    margin: 2.5rem;
+}
+
+.texto {
+    margin-top: 8rem;
+}
+
+textarea {
+    border: none;
+    resize: none;    
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.text-area {
+    width: auto;
+    height: 18.75rem;
+    background-color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    color: var(--azul-escuro);
+}
+
+::placeholder {
+    color: var(--azul-escuro);
+}
+
+.traducao {
+    display: none;
+    height: 18.75rem;
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.aviso {
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.tradutor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--branco);
+    box-shadow: 0rem 1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.08);
+    border-radius: 2rem;
+    width: 20vw;
+    height: 70vh;
+    padding: 2rem;
+    margin: 2.5rem;
+}
+
+.titulo-tradutor {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--cinza);
+    margin-bottom: 1rem;
+}
+
+.texto-tradutor {
+    font-size: 1rem;
+    color: var(--cinza);
+    margin-bottom: 1rem;
+}
+
+.botao-copiar {
+    display: none;
+}
+
+.container-botao {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+button {
+    border:none;
+    background: none;
+}
+
+.botao-azul {
+    border-radius: 1.5rem;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    font-size: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.botao {
+    border: 0.0625rem solid var(--azul-escuro);
+    border-radius: 1.5rem;
+    color: var(--azul-escuro);
+    font-size: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.rodape {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px;
+    color: var(--azul-escuro);
+}
+
+
+/* TABLET */
+@media (max-width: 1200px) {
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .texto {
+        margin-top: 1rem;
+        width: 60vw;
+    }
+
+    .imagem-desktop {
+        display: none;
+    }
+
+    .tradutor {
+        margin: 2em;
+        width: 80vw;
+    }
+    
+}
+
+/* MOBILE */
+@media (max-width: 500px) {
+
+    .texto {
+        margin-top: 1rem;
+    }
+
+    .container-botao {
+        flex-direction: column;
+    }
+
+    .tradutor {
+        width: auto;
+    }
+    
+}
