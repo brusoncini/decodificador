@@ -1,7 +1,10 @@
 # Decodificador
 
-Projeto criado para o desafio da Alura em conjunto com a Oracle, no Challenge ONE. 
+Projeto criado para o desafio da Alura em conjunto com a Oracle, no Challenge ONE.
 #challengeOnedecodificador5
+
+![imagem](./img/badge.png)
+
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
@@ -11,7 +14,7 @@ Projeto criado para o desafio da Alura em conjunto com a Oracle, no Challenge ON
 | :fire: Desafio     | https://www.alura.com.br/challenges/challenge-one-logica/sprint01-construa-decodificador-texto-com-javascript
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-[image](https://user-images.githubusercontent.com/120529944/235996461-269a5666-517a-45d6-b6ef-7bb6c3e8e9e2.png#vitrinedev)
+![imagem](https://user-images.githubusercontent.com/120529944/235996461-269a5666-517a-45d6-b6ef-7bb6c3e8e9e2.png#vitrinedev)
 
 ## Sobre o desafio
 
